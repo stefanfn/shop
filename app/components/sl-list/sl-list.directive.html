@@ -1,0 +1,34 @@
+<!--form action="versenden.php" method="GET"-->
+<form ng-submit="vm.submit()" method="GET">
+    <div ng-repeat="item in vm.items">
+        <div
+            style="padding: 3px 3px 3px 3px; width: 300px;"
+            ng-if="'select' === item.type">
+            {{ item.selectId }}<br/>
+            <select style="padding: 3px 3px 3px 3px; width: 300px;"
+                ng-model="vm.value"
+                ng-options="option as option.text for option in vm.items | filter:filterOptionsForSelect(item.selectId)"
+                ng-change="vm.select()">
+            </select>
+        </div>
+        <sl-item
+            ng-if="'select' !== item.type && (!item.selectId || item.amount > 0)"
+            item="item"
+            ng-hide="item.amount <= 0 && !!item.selectId"
+        ></sl-item>
+        <div
+            style="padding: 3px 3px 3px 3px; width: 300px;"
+            ng-if="'select' !== item.type && !!item.options">
+            {{ item.title }}<br/>
+            <select style="padding: 3px 3px 3px 3px; width: 300px;"
+                    ng-model="vm.value"
+                    ng-options="option as option.text for option in item.options | filter:filterOptionsForSelect()"
+                    ng-change="vm.change()">
+            </select>
+        </div>
+    </div>
+    <textarea name="comment">Bla</textarea>
+    <br/>
+    <input type="submit" value="Versenden"/>
+</form>
+

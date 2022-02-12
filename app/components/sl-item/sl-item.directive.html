@@ -1,0 +1,55 @@
+<div style="padding: 3px 3px 3px 3px; width: 300px;">
+    <table style="border: 0px;">
+        <tr>
+            <!--title-->
+            <td>
+                <div style="width: 200px;">
+                    {{item.text}}{{item.dirty.length ? '*' : ''}}
+                </div>
+            </td>
+            <!-- less button -->
+            <td rowspan="2">
+                <button type="button"
+                    style="width: 46px; height: 46px; padding: 9px 9px 9px 9px"
+                    ng-click="vm.onMinus()"
+                >-</button>
+            </td>
+            <!--amount input-->
+            <td rowspan="2">
+                <input
+                        type="text"
+                        id="{{item.text}}"
+                        name="{{item.text}}"
+                        value="{{item.amount}}"
+                        ng-model="item.amount"
+                        size="1"
+                        maxlength="2"
+                        style="width: 30px; height: 100%; padding: 9px 9px 9px 9px"
+                        data-ng-change="vm.onAmountChange()"
+                >
+                </input>
+            </td>
+            <!-- more button -->
+            <td rowspan="2">
+                <button type="button"
+                        style="width: 46px; height: 46px; padding: 9px 9px 9px 9px"
+                        ng-click="vm.onPlus()"
+                >+</button>
+            </td>
+        </tr>
+        <tr>
+            <!-- comment -->
+            <td>
+                <input type="text"
+                       id="text_{{item.text}}"
+                       name="text_{{item.text}}"
+                       value="{{item.comment}}"
+                       ng-model="item.comment"
+                       style="width: 200px;"
+                       ng-change="vm.onCommentChange()"
+                >
+                </input>
+            </td>
+        </tr>
+</table>
+</div>

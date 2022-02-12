@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item type="select" selectId="Lidl">Lidl</item>
+    <item selectId="Lidl">Glutenfreies Brot</item>
+    <item selectId="Lidl">Möhren</item>
+    <item selectId="Lidl">Gemüse</item>
+    <item selectId="Lidl">Hefe</item>
+    <item selectId="Lidl">Roggenmehl</item>
+    <item selectId="Lidl">Fleisch</item>
+    <item selectId="Lidl">Kartoffelgerichte</item>
+    <item selectId="Lidl">Geflügelsalami</item>
+    <item selectId="Lidl">Leberwurst</item>
+    <item selectId="Lidl">Veget. Wurst</item>
+    <item selectId="Lidl">Käse</item>
+    <item selectId="Lidl">Kokosmilch</item>
+    <item selectId="Lidl">Mexikogemüse</item>
+    <item selectId="Lidl">Gegrillte Paprika</item>
+    <item selectId="Lidl">Gewürfelte Tom.</item>
+    <item selectId="Lidl">Cola light</item>
+    <item selectId="Lidl">Nudeln</item>
+    <item selectId="Lidl">Zimt</item>
+    <item selectId="Lidl">Margarine</item>
+
+    <item amount="1">Leergut zurück</item>
+    <item type="select" selectId="Getränke">Getränke</item>
+    <item selectId="Getränke">Mineralwasser</item>
+    <item selectId="Getränke">Tonic Water</item>
+    <item selectId="Getränke">Wiener Melange</item>
+    <item selectId="Getränke">Capuccino</item>
+    <item selectId="Getränke">Schwarzer Tee</item>
+    <item selectId="Getränke">Kamillentee</item>
+    <item selectId="Getränke">Pfefferminztee</item>
+    <item selectId="Getränke">Anderer Tee</item>
+    <item selectId="Getränke" amount="1">Apfelsaft</item>
+    <item amount="1">Süßigkeiten</item>
+    <item selectId="Getränke">Orangensaft</item>
+    <item amount="1">Müsliriegel</item>
+    <item amount="1">Kaugummi</item>
+    <item selectId="Getränke" amount="1">Traubensaft</item>
+    <item>Marmelade/Honig</item>
+    <item amount="1">Toast/Brot</item>
+    <item amount="2">Müsli etc.</item>
+    <item amount="1">Studentenfutter</item>
+    <item>Reiswaffeln</item>
+    <item amount="1">Eier</item>
+    <item>Mehl/Zucker</item>
+    <item amount="1">Milch L-</item>
+    <item>Sahne L-</item>
+    <item selectId="Dosen">Nudelsoße</item>
+    <item amount="2">Fleisch</item>
+    <item>Fleischwurst</item>
+    <item>Pizzateig</item>
+    <item amount="6">Fertiggerichte</item>
+    <item amount="3">Tütensalat</item>
+    <item amount="8">Ziegenkäse</item>
+    <item amount="2">Pudding</item>
+    <item amount="2">Joghurt L-</item>
+    <item>Hefe</item>
+    <item selectId="Getränke">Blutorangensaft</item>
+    <item>Geschirrspültabs</item>
+    <item>Slipeinlagen</item>
+    <item type="select" selectId="Beutel/Folien">Beutel/Folien</item>
+    <item selectId="Beutel/Folien">Große Müllbeutel</item>
+    <item selectId="Beutel/Folien">Kleine Müllbeutel</item>
+    <item selectId="Beutel/Folien">Gefrierbeutel</item>
+    <item selectId="Beutel/Folien">Alufolie</item>
+    <item selectId="Beutel/Folien">Backpapier</item>
+    <item selectId="Beutel/Folien">Einmalhandschuhe</item>
+    <item type="select" selectId="Dosen">Dosen</item>
+    <item selectId="Dosen">Mandarinen</item>
+    <item selectId="Dosen">Champignons</item>
+    <item selectId="Dosen">Spargel</item>
+    <item selectId="Dosen">Mais</item>
+    <item selectId="Dosen">Erbsen/Möhren</item>
+    <item selectId="Dosen">Ananas</item>
+    <item>Kosmetiktücher</item>
+    <item amount="2">Gurke</item>
+    <item amount="1">Gemüse</item>
+    <item amount="3">Möhren</item>
+    <item amount="4">Paprika</item>
+    <item amount="1">Toilettenpapier</item>
+    <item>Handtuchrolle</item>
+    <item>Taschentücher</item>
+    <item amount="1">Obst f. Menschen</item>
+    <item>Äpfel</item>
+    <item>Öl</item>
+    <item>Chiasamen Bio SK</item>
+    <item>Kerne-Mix</item>
+    <item>Reis</item>
+    <item>Meerrettich</item>
+    <item>Salatkräuter</item>
+    <item>Zitrone/Limone</item>
+    <item>Rosinen</item>
+    <item>Ketchup/Majo/Senf</item>
+    <item>Apfelmus</item>
+    <item selectId="Dosen">Fruchtcocktail</item>
+    <item>Würstchen</item>
+    <item type="select" selectId="Tiefkühl">Tiefkühl</item>
+    <item selectId="Tiefkühl">Pommes</item>
+    <item selectId="Tiefkühl">Kartoffelecken</item>
+    <item selectId="Tiefkühl">Steaks</item>
+    <item selectId="Tiefkühl">Eis</item>
+    <item selectId="Tiefkühl" amount="1">Kräuter</item>
+    <item selectId="Tiefkühl">Fischstäbchen</item>
+    <item selectId="Tiefkühl">Buttergemüse</item>
+    <item>Batterien</item>
+    <item type="select" selectId="Sonderartikel">Sonderartikel</item>
+    <item selectId="Sonderartikel">S1</item>
+    <item selectId="Sonderartikel">S2</item>
+    <item selectId="Sonderartikel">S3</item>
+    <item selectId="Sonderartikel">S4</item>
+    <item selectId="Sonderartikel">S5</item>
+    <item selectId="Sonderartikel">S6</item>
+    <item selectId="Sonderartikel">S7</item>
+    <item selectId="Sonderartikel">S8</item>
+    <item selectId="Sonderartikel">S9</item>
+    <item amount="1">Leergutbon</item>
+    <item>Batterierückgabe</item>
+</items>
